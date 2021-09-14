@@ -2,7 +2,6 @@ package com.upb.laguaca;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -10,7 +9,10 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.core.content.ContextCompat;
@@ -67,7 +69,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         ventana=getWindow();
-        ventana.setStatusBarColor(Color.parseColor("#38020B"));
+        ventana.setStatusBarColor(Color.parseColor("#790E03"));
 
 
     }
@@ -196,7 +198,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         if(puntoActual==0)//Se carga una modal con las indicaciones del juego la primera vez que el usuario ingresa al juego
         {
-            AlertDialog.Builder modal=new AlertDialog.Builder(MapsActivity.this);
+            /*AlertDialog.Builder modal=new AlertDialog.Builder(MapsActivity.this);
             modal.setTitle("Pregunta 1");
             modal.setMessage("En esta prueba debes ir al punto y....");
             modal.setNeutralButton("Cerrar", new DialogInterface.OnClickListener() {
@@ -207,12 +209,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             });
 
             modal.create();
-            modal.show();
+            modal.show();*/
+            mostrarDialogoPerzonalizado();
         }
 
         System.out.println("PASO POR ACA 66666666666666666666666666666666666-----------------------------Punto actual:"+puntoActual);
     }
 
+    private void mostrarDialogoPerzonalizado() {
+        AlertDialog.Builder builder= new AlertDialog.Builder(MapsActivity.this);
+        LayoutInflater inflater = getLayoutInflater();
+        View view=inflater.inflate(R.layout.alert_dialog_personalizado,null);
+        builder.setView(view);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+        Button botonCancelar = view.findViewById(R.id.buttonCerrarDialog);
+        botonCancelar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                dialog.cancel();
+            }
+        });
+    }
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.

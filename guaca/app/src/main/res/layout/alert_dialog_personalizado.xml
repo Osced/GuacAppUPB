@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_laguaca_degradado"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Bienvenido competid@r"
+        android:textColor="@color/AmarilloGuaca"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:justificationMode="inter_word"
+        android:text="@string/instrucciones1"
+        android:textAlignment="textStart"
+        android:textColor="@color/ColorGuaca"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:justificationMode="inter_word"
+        android:text="@string/instrucciones2"
+        android:textAlignment="textStart"
+        android:textColor="@color/ColorGuaca"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="8dp"
+        android:justificationMode="inter_word"
+        android:text="@string/instrucciones3"
+        android:textAlignment="textStart"
+        android:textColor="@color/ColorGuaca"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="14dp"
+        android:justificationMode="inter_word"
+        android:text="@string/instrucciones4"
+        android:textAlignment="textStart"
+        android:textColor="@color/AmarilloGuaca"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/instrucciones5"
+        android:textAlignment="center"
+        android:textColor="@color/ColorGuaca"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCerrarDialog"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/boton_guaca"
+            android:text="Continuar" />
+
+    </LinearLayout>
+</LinearLayout>

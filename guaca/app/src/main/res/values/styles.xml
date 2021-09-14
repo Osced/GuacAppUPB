@@ -14,4 +14,12 @@
         </item>
     </style>
 
+    <style name="AlertDialogInstrucciones" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="android:colorAccent">
+            #790E03
+        </item>
+    </style>
+
+
 </resources>

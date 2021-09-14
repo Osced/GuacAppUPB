@@ -10,6 +10,25 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 =======
 
+
+    <string name="instrucciones1">Hoy es un día lleno de alegría, música, y diversión para estrechar los lazos de compañerismo, hermandad e integración de la Comunidad UPB.
+    </string>
+
+    <string name="instrucciones2"> Llénate de energía y prepárate para poner a prueba tus habilidades físicas y mentales.
+        En esta versión de la guaca no estarás solo, la aplicación estará siempre dispuesto a acompañarte y guiarte para que puedas completar todo el recorrido.
+    </string>
+
+    <string name="instrucciones3"> Enfréntate contra otros competidores en pruebas de desplazamiento, evidencias fotográficas y divulgación en redes sociales, con el siguiente sistema de puntuación:
+
+    </string>
+    <string name="instrucciones4"> 5: prodigio -
+        3: experto -
+        2: novato
+    </string>
+    <string name="instrucciones5"> Cada prueba Debe de ser superada para poder continuar a las siguientes.
+            ¡Buena suerte!
+    </string>
+
     <string name="pregunta1">Muy seguramente te acordarán del carbono por ser uno de los elementos de la tabla periódica. Pero para nosotros es una de las noticias más importantes que hemos recibido en los últimos años ¿Sabes cuál fue una de las recientes certificaciones que recibimos? Pásate por la base de UPB Sostenible y encuentra la respuesta.  </string>
         <string name="p1_op1">Carbono sostenible</string>
         <string name="p1_op2">Carbono neutro</string><!-- TRespuesta correcta -->
