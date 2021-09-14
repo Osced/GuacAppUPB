@@ -1,0 +1,52 @@
+
+m
+java:S1450E"PRemove the "f" field and declare it as a local variable in the relevant methods.(™ŠÃ8ŸÈ©‰É.
+[	java:S106û"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8°âÂıÉ.
+Y	java:S125"<This block of commented-out lines of code should be removed.(Í®¬ÿ8°âÂıÉ.
+Y	java:S125·"<This block of commented-out lines of code should be removed.(ßİ‹ñ8°âÂıÉ.
+l
+java:S1450D"VRemove the "ventana" field and declare it as a local variable in the relevant methods.(İ´ñ
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(ºş„8°âÂıÉ.
+S
+java:S1068+"8Remove this unused "imagenPrincipalGuaca" private field.(Ñ¡Ô´ûÿÿÿÿ
+^	java:S125ù"<This block of commented-out lines of code should be removed.(ä®­ùÿÿÿÿ8°âÂıÉ.
+r	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸µ‡»ûÿÿÿÿ8¶Ùº¨É.
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(ÁÔ ”8°âÂıÉ.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ù›Õùüÿÿÿÿ8°âÂıÉ.
+c
+java:S1858Ô"E"getContents" returns a string, there's no need to call "toString()".(‚Ìû¿8°âÂıÉ.
+E
+java:S1172~"(Remove this unused method parameter "v".(ñ«8œÔü¸É.
+\
+java:S1117"9Rename "idUPB" which hides the field declared at line 65.(¶áŞøúÿÿÿÿ8°âÂıÉ.
+Q	java:S125S"<This block of commented-out lines of code should be removed.(çá«×
+]	java:S1257"<This block of commented-out lines of code should be removed.(Ÿüèıÿÿÿÿ8ŸÈ©‰É.
+Q	java:S110)"<This class has 9 parents which is greater than 5 authorized.(¥™’ƒ
+X	java:S125Y"<This block of commented-out lines of code should be removed.(µî§”8ŸÈ©‰É.
+Y	java:S125Ù"<This block of commented-out lines of code should be removed.(ŸÂµø8°âÂıÉ.
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(×å©ùÿÿÿÿ8ŸÈ©‰É.
+L
+java:S1874-"6Remove this use of "ProgressDialog"; it is deprecated.(ØŠ¤
+^	java:S125„"<This block of commented-out lines of code should be removed.(ä®­ùÿÿÿÿ8°âÂıÉ.
+G
+java:S1068-"1Remove this unused "dialogoEspera" private field.(ØŠ¤
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(Öš»Ëûÿÿÿÿ8ŸÈ©‰É.
+~
+java:S1450+"cRemove the "imagenPrincipalGuaca" field and declare it as a local variable in the relevant methods.(Ñ¡Ô´ûÿÿÿÿ
+o
+java:S1450."YRemove the "ipServidor" field and declare it as a local variable in the relevant methods.(îó‘Ö
+Y	java:S125à"<This block of commented-out lines of code should be removed.(´ä²Ÿ8°âÂıÉ.
+|
+java:S1450@"aRemove the "nombreParticipante" field and declare it as a local variable in the relevant methods.(û‡êıÿÿÿÿÿ
+Y	java:S125Å"<This block of commented-out lines of code should be removed.(ƒ«Æ8°âÂıÉ.
+Y	java:S125é"<This block of commented-out lines of code should be removed.(×Áª8°âÂıÉ.
+J
+java:S1172k"(Remove this unused method parameter "v".(ÏªÁ¸úÿÿÿÿ8ÍÜ¦¨É.
+X	java:S1252"<This block of commented-out lines of code should be removed.(ìÂ¹ö8ŸÈ©‰É.
+V	java:S106ö"9Replace this use of System.out or System.err by a logger.(†¾Í8°âÂıÉ.
+n	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ŞÉ8ÔÊ¸şÉ.
+>	java:S131""Add a default case to this switch.(·ãèy8°âÂıÉ.
+[	java:S106—"9Replace this use of System.out or System.err by a logger.(Ç‘ãıùÿÿÿÿ8°âÂıÉ.
+V	java:S106ñ"9Replace this use of System.out or System.err by a logger.(Ã¢Ë8°âÂıÉ.
+{
+java:S14500"`Remove the "jsonObjectRequest" field and declare it as a local variable in the relevant methods.(Áüçüÿÿÿÿ

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityPregunta">
+
+    <TextView
+        android:id="@+id/textViewResponderPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:justificationMode="inter_word"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="@color/ColorBoton"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/buttonResponderEnviarPregunta"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/boton_pregunta"
+        android:text="Enviar respuesta"
+        android:textColor="@color/ColorGuaca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupRespuestasGuaca" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRespuestasGuaca"
+        android:layout_width="404dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResponderPregunta">
+
+        <RadioButton
+            android:id="@+id/radioButtonR1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/GrisGuaca"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/GrisGuaca"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/GrisGuaca"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonR4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textColor="@color/GrisGuaca"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonVisitarOtroPunto"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/boton_guaca_otra"
+        android:text="Visitar otro punto UPB"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonResponderEnviarPregunta"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextRespuesta1113"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResponderPregunta" />
+
+    <EditText
+        android:id="@+id/editTextMultiLineR14"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/GrisGuaca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResponderPregunta" />
+
+    <Button
+        android:id="@+id/buttonQr"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/boton_pregunta"
+        android:text="Leer Qr"
+        android:textColor="@color/ColorGuaca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupRespuestasGuaca" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:background="@drawable/fondo_laguaca_degradado"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewTemporizador"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:text="TextView"
+            android:textColor="@color/AmarilloGuaca"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textViewPuntaje"
+            android:layout_width="215dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            android:textColor="@color/ColorGuaca"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

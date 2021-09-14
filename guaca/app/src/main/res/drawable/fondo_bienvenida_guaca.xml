@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/fondo_laguaca_degradado"/>
+
+    <item>
+        <bitmap
+
+            android:gravity="center"
+            android:src="@mipmap/inicio_guaca"
+
+            />
+    </item>
+
+</layer-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fondo_guaca">#020519</color>
+    <color name="azul_claro_guaca" >#79D2F5</color>
+
+    <color name="color_magenta_guaca" >#e3007c</color>
+    <color name="color_principal_guaca">#38020B</color>
+    <color name="ColorGuaca">#F9F0D6</color>
+    <color name="ColorBoton">#790E03</color>
+    <color name="AmarilloGuaca">#FFCD01</color>
+    <color name="GrisGuaca">#585858</color>
+</resources>

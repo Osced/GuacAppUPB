@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">La GuacApp 2020</string>
+    <string name="botonJugarGuaca">Participa en Festival La Guaca 2020</string>
+    <string name="boton_ecocampus">Explora nuestro EcoCampus UPB Medellín</string>
+    <string name="boton_rrss">Comparte tu Experiencia en Redes Sociales</string>
+    <string name="imagenPrincipalGuaca">TODO</string>
+    <string name="ipServidor">https://eav.upb.edu.co/guaca/</string>
+    <string name="title_activity_maps">Map UPB</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+=======
+
+    <string name="pregunta1">Muy seguramente te acordarán del carbono por ser uno de los elementos de la tabla periódica. Pero para nosotros es una de las noticias más importantes que hemos recibido en los últimos años ¿Sabes cuál fue una de las recientes certificaciones que recibimos? Pásate por la base de UPB Sostenible y encuentra la respuesta.  </string>
+        <string name="p1_op1">Carbono sostenible</string>
+        <string name="p1_op2">Carbono neutro</string><!-- TRespuesta correcta -->
+        <string name="p1_op3">Carbono verde</string>
+        <string name="p1_op4">Huella de carbono</string>
+
+    <string name="pregunta2">Datos por aquí y datos por allá. Día a día circula mucha información en nuestro mundo. La UPB le apuesta a volver científicos especializados en inteligencia artificial, programación de software, inteligencia de negocios, analítica de datos, estadística y matemáticas ¿Cuál fue uno de los últimos pregrados que presentamos en la UPB?</string>
+        <string name="p2_op1">Ingeniería en Ciencia de Datos</string><!-- TRespuesta correcta -->
+        <string name="p2_op2">Ingeniería en datos informáticos</string>
+        <string name="p2_op3">Ingeniería en Big Data</string>
+        <string name="p2_op4">Ingeniería en datos</string>
+
+    <string name="pregunta3">¿Sabías que todos nuestros auditorios tienen nombres de xxxxxxxxxxx? En el 2019 inauguramos el centro de eventos que lleva por nombre:  </string>
+        <string name="p3_op1">Mons. Felix Henao Botero</string>
+        <string name="p3_op2">Monseñor Eugenio Restrepo Uribe</string>
+        <string name="p3_op3">Mons. Tulio Botero Salazar</string>
+        <string name="p3_op4">Mons. Manuel José Sierra</string><!-- TRespuesta correcta -->
+
+    <string name="pregunta4">Joyas literarias es lo que podrás encontrar en nuestra Biblioteca Central. Un espacio lleno de pequeños tesoros que debemos cuidar ¿Quién habrá donado su colección personal a nuestra U?  </string>
+        <string name="p4_op1">Mons. Manuel José Sierra</string>
+        <string name="p4_op2">Mons. Darío Múnera Vélez</string>
+        <string name="p4_op3">Belisario Betancur</string><!-- TRespuesta correcta -->
+        <string name="p4_op4">Antonio Cook</string>
+
+    <string name="pregunta5">Grandes homenajes hemos hecho a lo largo de nuestra historia. Reconocimientos, muestras artísticas, exposiciones y otros más ¿En honor a quién fue el museo que inauguramos en el 2019?  </string>
+        <string name="p5_op1">Albert Einstein  </string>
+        <string name="p5_op2">Leonardo Da Vinci</string><!-- TRespuesta correcta -->
+        <string name="p5_op3">Bill Gates</string>
+        <string name="p5_op4">Hermanos Wright</string>
+
+    <string name="pregunta6">Enciende la radio que empieza la información. Diálogos culturales, históricos, ambientales y literarios son los que podrás escuchar. Radio Bolivariana cumplió 29 y en este dial del FM la podrás encontrar:  </string>
+        <string name="p6_op1">92.4</string><!-- TRespuesta correcta -->
+        <string name="p6_op2">93.9</string>
+        <string name="p6_op3">91.5</string>
+        <string name="p6_op4">90.0</string>
+
+    <string name="pregunta7">Enciende los motores, prende la turbina, controla el robot o diseña en AutoCAD. Los laboratorios son esos espacios donde la cualificación aplicada se vive en el día a día ¿Sabes en qué bloque encontrarás casi xxxxxx espacios diferentes?  </string>
+        <string name="p7_op1">Bloque 6</string>
+        <string name="p7_op2">Bloque 13</string>
+        <string name="p7_op3">Bloque 26</string>
+        <string name="p7_op4">Bloque 8</string><!-- TRespuesta correcta -->
+
+    <string name="pregunta8">Unos dirán que es una casita, otros que es la evolución de Yarumo y otros tantos ni idea de lo que será. En este lugar le apostamos a la tecnología para entender la eficiencia energética ¿Cómo se llama este espacio de la U?  </string>
+        <string name="p8_op1">La casa en el domo</string>
+        <string name="p8_op2">Tech House</string>
+        <string name="p8_op3">Smart Living Lab</string><!-- TRespuesta correcta -->
+        <string name="p8_op4">Living House Lab</string>
+
+    <string name="pregunta9">¿En qué fecha se inauguró el Desarrollo Arquitectónico del bloque 11 de nuestra Universidad y que además contó con la presencia del presidente de la República de Colombia?</string>
+        <string name="p9_op1">11 de septiembre de 2019</string>
+        <string name="p9_op2">12 de septiembre de 2019</string><!-- TRespuesta correcta -->
+        <string name="p9_op3">10 de septiembre de 2019</string>
+        <string name="p9_op4">13 de septiembre de 2019</string>
+
+    <string name="pregunta10">¿Cuáles son las fuentes de energía renovable que utiliza la universidad?</string>
+        <string name="p10_op1">Eólica e Hidroeléctrica</string>
+        <string name="p10_op2">Biomasa e Hidroeléctrica</string>
+        <string name="p10_op3">Solar fotovoltaica e Hidroeléctrica</string><!-- TRespuesta correcta -->
+        <string name="p10_op4">Hidroeléctrica</string>
+
+    <string name="pregunta11">Pregunta Sostenibilidad</string>
+        <string name="p11_op1">2 carros</string>
+        <string name="p11_op2">6 carros</string>
+        <string name="p11_op3">3 carros</string>
+        <string name="p11_op4">No hay carros</string>
+
+    <string name="pregunta12">Prueba Física </string>
+        <string name="p12_op1">7 paneles</string>
+        <string name="p12_op2">4 paneles</string>
+        <string name="p12_op3">5 paneles</string>
+        <string name="p12_op4">9 paneles</string>
+
+    <string name="pregunta13">Pregunta Investigación</string>
+        <string name="p13_op1">Asesoría Integral</string>
+        <string name="p13_op2">Biblioteca</string>
+        <string name="p13_op3">Rectoría</string>
+        <string name="p13_op4">Librería</string>
+
+    <string name="pregunta14"> Pregunta Final</string>
+        <string name="p14_op1">Circular primera</string>
+        <string name="p14_op2">Avenida 33</string>
+        <string name="p14_op3">Avenida Nutibara</string>
+        <string name="p14_op4">Avenida Bolivariana</string>
+
+    <string name="pregunta15">Nuestro Ecocampus UPB - Tour Virtual te permite tener una vista aérea de cada uno de los bloque de nuestra Universidad. Observa el bloque 17 y responde ¿Cuántas vigas de color rojo sostienen el techo del polideportivo?</string>
+        <string name="p15_op1">5 vigas</string>
+        <string name="p15_op2">10 vigas</string>
+        <string name="p15_op3">12 vigas</string>
+        <string name="p15_op4">15 vigas</string>
+
+    <string name="pregunta16">16. Pregunta 16</string>
+        <string name="p16_op1">p16_op1</string>
+        <string name="p16_op2">p16_op2</string>
+        <string name="p16_op3">p16_op3</string>
+        <string name="p16_op4">p16_op4</string>
+
+    <string name="pregunta17">17. Pregunta 17</string>
+        <string name="p17_op1">p17_op1</string>
+        <string name="p17_op2">p17_op2</string>
+        <string name="p17_op3">p17_op3</string>
+        <string name="p17_op4">p17_op4</string>
+
+    <string name="pregunta18">18. Pregunta 18</string>
+        <string name="p18_op1">p18_op1</string>
+        <string name="p18_op2">p18_op2</string>
+        <string name="p18_op3">p18_op3</string>
+        <string name="p18_op4">p18_op4</string>
+
+    <string name="pregunta19">19. Pregunta 19</string>
+        <string name="p19_op1">p19_op1</string>
+        <string name="p19_op2">p19_op2</string>
+        <string name="p19_op3">p19_op3</string>
+        <string name="p19_op4">p19_op4</string>
+
+    <string name="pregunta20">20. Pregunta 20</string>
+        <string name="p20_op1">p20_op1</string>
+        <string name="p20_op2">p20_op2</string>
+        <string name="p20_op3">p20_op3</string>
+        <string name="p20_op4">p20_op4</string>
+</resources>

@@ -1,0 +1,78 @@
+
+=	java:S131¨""Add a default case to this switch.(¸¥÷¤ùÿÿÿÿ
+R	java:S125õ"<This block of commented-out lines of code should be removed.(‚Ù°ˆ
+Y	java:S125ó"<This block of commented-out lines of code should be removed.(ºè²š8åÎôúÉ.
+f
+java:S1192M"QDefine a constant instead of duplicating this literal "InfoParticipante" 3 times.(Ø°ˆ+
+p
+java:S3776ü"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(óêæï8åÎôúÉ.
+i
+java:S1117¦"LRename "preferenciasParticipante" which hides the field declared at line 56.(Ø°ˆ+8åÎôúÉ.
+D
+java:S10683"'Remove this unused "p19" private field.(ƒœ›ó8åÎôúÉ.
+D
+java:S10684"'Remove this unused "p20" private field.(ÃÌ×£8åÎôúÉ.
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(þ³›ñ
+^	java:S125ó"<This block of commented-out lines of code should be removed.(öœâ¶üÿÿÿÿ8åÎôúÉ.
+b
+java:S1858ƒ"?"getId" returns a string, there's no need to call "toString()".(—Ü¨„ùÿÿÿÿ8åÎôúÉ.
+[	java:S106’"9Replace this use of System.out or System.err by a logger.(åÕ¢Ëüÿÿÿÿ8åÎôúÉ.
+X	java:S125ú"<This block of commented-out lines of code should be removed.(‰üY8³¢öúÉ.
+G
+java:S1481”")Remove this unused "lp19" local variable.(ðð¶Ü8åÎôúÉ.
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(Â“ 8åÎôúÉ.
+V
+java:S1854”"8Remove this useless assignment to local variable "lp19".(ðð¶Ü8åÎôúÉ.
+l
+java:S1450<"VRemove the "ventana" field and declare it as a local variable in the relevant methods.(Ý´ñž
+]
+java:S1858÷"?"getId" returns a string, there's no need to call "toString()".(Ëÿ•8ÃéæƒÉ.
+b
+java:S1858ô"?"getId" returns a string, there's no need to call "toString()".(€»¿’úÿÿÿÿ8åÎôúÉ.
+L
+java:S1481’")Remove this unused "lp17" local variable.(ú„ùÿúÿÿÿÿ8åÎôúÉ.
+|
+java:S1450 "aRemove the "nombreParticipante" field and declare it as a local variable in the relevant methods.(û‡êýÿÿÿÿÿ
+Q
+java:S1068;"/Remove this unused "puntoActual" private field.(´’Ýîüÿÿÿÿ8åÎôúÉ.
+v
+java:S14506"TRemove the "idUPB" field and declare it as a local variable in the relevant methods.(Ç´Çúÿÿÿÿ8åÎôúÉ.
+W	java:S125ê"<This block of commented-out lines of code should be removed.(õï¤Œüÿÿÿÿ
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(¶Äâ¸ûÿÿÿÿ8åÎôúÉ.
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(—Ü¨„ùÿÿÿÿ8åÎôúÉ.
+[	java:S106ô"9Replace this use of System.out or System.err by a logger.(€»¿’úÿÿÿÿ8åÎôúÉ.
+u
+java:S1450;"ZRemove the "puntoActual" field and declare it as a local variable in the relevant methods.(´’Ýîüÿÿÿÿ
+h
+java:S1117M"LRename "preferenciasParticipante" which hides the field declared at line 56.(Ø°ˆ+8åÎôúÉ.
+V
+java:S1854‘"8Remove this useless assignment to local variable "lp16".(¥×Î“8åÎôúÉ.
+G
+java:S1481‘")Remove this unused "lp16" local variable.(¥×Î“8åÎôúÉ.
+V
+java:S1854•"8Remove this useless assignment to local variable "lp20".(™²Ò„8åÎôúÉ.
+I
+java:S10682"'Remove this unused "p18" private field.(çÇ¯Õüÿÿÿÿ8åÎôúÉ.
+G
+java:S1481“")Remove this unused "lp18" local variable.(â–¡¶8åÎôúÉ.
+V
+java:S1854“"8Remove this useless assignment to local variable "lp18".(â–¡¶8åÎôúÉ.
+h
+java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÖÓŠÚ
+n
+java:S1450"SRemove the "mMap" field and declare it as a local variable in the relevant methods.(—­ƒÌÿÿÿÿÿ
+Q	java:S110"<This class has 8 parents which is greater than 5 authorized.(©˜Ãæ
+[
+java:S1854’"8Remove this useless assignment to local variable "lp17".(ú„ùÿúÿÿÿÿ8åÎôúÉ.
+I
+java:S10681"'Remove this unused "p17" private field.(¬Êçªÿÿÿÿÿ8åÎôúÉ.
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(òÄ‚©
+G
+java:S1481•")Remove this unused "lp20" local variable.(™²Ò„8åÎôúÉ.
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(öÎÏøÿÿÿÿ
+l
+java:S1192«"PDefine a constant instead of duplicating this literal "numeroPregunta" 15 times.(ÝåÓÌûÿÿÿÿ
+C
+java:S10680"'Remove this unused "p16" private field.(¿ôì8åÎôúÉ.
+^	java:S125¿"<This block of commented-out lines of code should be removed.(ãÅú§úÿÿÿÿ8åÎôúÉ.
+^	java:S125Ô"<This block of commented-out lines of code should be removed.(ÔŒà’ûÿÿÿÿ8åÎôúÉ.

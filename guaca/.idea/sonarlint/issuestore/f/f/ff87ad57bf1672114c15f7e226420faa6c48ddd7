@@ -1,0 +1,39 @@
+
+^	java:S125Ç"<This block of commented-out lines of code should be removed.(ˆ¬Òûÿÿÿÿ8¯ÑìúÉ.
+Y	java:S125½"<This block of commented-out lines of code should be removed.(ğ¥–¯8¯ÑìúÉ.
+O
+java:S10685"9Remove this unused "preguntasParticipante" private field.(×Ï²š
+w
+java:S1450+"\Remove the "stringRequest" field and declare it as a local variable in the relevant methods.(­úãéşÿÿÿÿ
+V	java:S106Ü"9Replace this use of System.out or System.err by a logger.(å¨™î8¯ÑìúÉ.
+P
+java:S1068%"5Remove this unused "participanteGuaca" private field.(ÈÂ©‰ÿÿÿÿÿ
+Q
+java:S10682"6Remove this unused "nombreParticipante" private field.(û‡êıÿÿÿÿÿ
+m
+java:S1450*"RRemove the "url" field and declare it as a local variable in the relevant methods.(«Œåùÿÿÿÿ
+V	java:S106Ù"9Replace this use of System.out or System.err by a logger.(³ƒÙû8¯ÑìúÉ.
+m
+java:S3776u"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(÷á¡¹ıÿÿÿÿ
+?	java:S131""Add a default case to this switch.(‘øöÚ8¯ÑìúÉ.
+S
+java:S10683"8Remove this unused "preguntasRespondidas" private field.(‡ÄôŸüÿÿÿÿ
+Q
+java:S1874("6Remove this use of "ProgressDialog"; it is deprecated.(Ç…ï’üÿÿÿÿ
+o
+java:S1450)"YRemove the "ipServidor" field and declare it as a local variable in the relevant methods.(îó‘Ö
+V	java:S110 "<This class has 9 parents which is greater than 5 authorized.(ãÄ¯ùÿÿÿÿ
+b
+java:S3398Å"?Move this method into the anonymous class declared at line 594.(‰â¾ıÿÿÿÿ8¯ÑìúÉ.
+l
+java:S1450<"VRemove the "ventana" field and declare it as a local variable in the relevant methods.(İ´ñ
+Q	java:S125S"<This block of commented-out lines of code should be removed.(çŒº
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(£Í©½8¯ÑìúÉ.
+q
+java:S1450,"VRemove the "request" field and declare it as a local variable in the relevant methods.(È÷Í“ùÿÿÿÿ
+Y	java:S125ë"<This block of commented-out lines of code should be removed.(ëÍ‚8¯ÑìúÉ.
+^	java:S125â"<This block of commented-out lines of code should be removed.(àŸ˜ıÿÿÿÿ8¯ÑìúÉ.
+|
+java:S14502"aRemove the "nombreParticipante" field and declare it as a local variable in the relevant methods.(û‡êıÿÿÿÿÿ
+S
+java:S11973"8Move the array designator from the variable to the type.(‡ÄôŸüÿÿÿÿ
