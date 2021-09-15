@@ -13,7 +13,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -76,9 +75,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void deshabilitarPuntos() {
         SharedPreferences preferenciasParticipante=getSharedPreferences("InfoParticipante", Context.MODE_PRIVATE);
-        System.out.println("-----------------***************************////////////////////////Esta entrando en Deshabilitar 2");
-        System.out.println("Desde ACTIVIDAD DEL MAPA  p1: "+preferenciasParticipante.getInt("p1",102)+"  p2: "+preferenciasParticipante.getInt("p2",102)+"  p3: "+preferenciasParticipante.getInt("p3",102)+"  p4: "+preferenciasParticipante.getInt("p4",102)+"  p5: "+preferenciasParticipante.getInt("p5",102)+
-                "  p6: "+preferenciasParticipante.getInt("p6",102)+"  p7: "+preferenciasParticipante.getInt("p7",102)+"  p8: "+preferenciasParticipante.getInt("p8",102)+"  p9: "+preferenciasParticipante.getInt("p9",102)+"  p10: "+preferenciasParticipante.getInt("p10",102));
+        //System.out.println("-----------------***************************////////////////////////Esta entrando en Deshabilitar 2");
+        //System.out.println("Desde ACTIVIDAD DEL MAPA  p1: "+preferenciasParticipante.getInt("p1",102)+"  p2: "+preferenciasParticipante.getInt("p2",102)+"  p3: "+preferenciasParticipante.getInt("p3",102)+"  p4: "+preferenciasParticipante.getInt("p4",102)+"  p5: "+preferenciasParticipante.getInt("p5",102)+
+                //"  p6: "+preferenciasParticipante.getInt("p6",102)+"  p7: "+preferenciasParticipante.getInt("p7",102)+"  p8: "+preferenciasParticipante.getInt("p8",102)+"  p9: "+preferenciasParticipante.getInt("p9",102)+"  p10: "+preferenciasParticipante.getInt("p10",102));
 
 
         if(preferenciasParticipante.getInt("p1",0)!=0){
@@ -92,10 +91,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if(preferenciasParticipante.getInt("p2",0)!=0){
             p2.setIcon(generateBitmapDescriptorFromRes(MapsActivity.this, R.mipmap.marcador_final));
             p2.setTitle("x");
-            System.out.println("eNTRO A DIFERENTE DE CERO--------------------------------------------------------------------");
+            //System.out.println("eNTRO A DIFERENTE DE CERO--------------------------------------------------------------------");
         }else{
             p2.setIcon(generateBitmapDescriptorFromRes(MapsActivity.this, R.mipmap.marcador_inicio));
-            System.out.println("------------------------------------eNTRO A IGUAL A CERO");
+            //System.out.println("------------------------------------eNTRO A IGUAL A CERO");
         }
 
         if(preferenciasParticipante.getInt("p3",0)!=0){
@@ -187,14 +186,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     //Método para cargar los datos del participante desde el objeto SharedPreferences
     private void cargarPreferenciasParticipante() {
-        System.out.println("PASO POR ACA 66666666666666666666666666666666666-----------------------------"+banderaInicio);
+        //System.out.println("PASO POR ACA 66666666666666666666666666666666666-----------------------------"+banderaInicio);
 
         preferenciasParticipante=getSharedPreferences("InfoParticipante", Context.MODE_PRIVATE);
         nombreParticipante=preferenciasParticipante.getString("nombreParticipante","noHayUsuario");
         puntoActual=preferenciasParticipante.getInt("puntoActual",0);
         idUPB=preferenciasParticipante.getString("idUPB","NoRegistrado");
 
-        Toast.makeText(MapsActivity.this,"BIENVENIDO a LA GUACA "+ nombreParticipante+ "- Id UPB: "+ idUPB,Toast.LENGTH_LONG).show();
+        //Toast.makeText(MapsActivity.this,"BIENVENIDO a LA GUACA "+ nombreParticipante+ "- Id UPB: "+ idUPB,Toast.LENGTH_LONG).show();
 
         if(puntoActual==0)//Se carga una modal con las indicaciones del juego la primera vez que el usuario ingresa al juego
         {
@@ -213,7 +212,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mostrarDialogoPerzonalizado();
         }
 
-        System.out.println("PASO POR ACA 66666666666666666666666666666666666-----------------------------Punto actual:"+puntoActual);
+        //System.out.println("PASO POR ACA 66666666666666666666666666666666666-----------------------------Punto actual:"+puntoActual);
     }
 
     private void mostrarDialogoPerzonalizado() {
@@ -245,7 +244,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
 
-        System.out.println("PASO POR ACA 77777777777777777777777777777777777777777777------------------------------"+banderaInicio);
+        //System.out.println("PASO POR ACA 77777777777777777777777777777777777777777777------------------------------"+banderaInicio);
         mMap = googleMap;
 
         boolean preguntaCargada=false;//Para saber si ya se encontró una pregunta a cargar, la pregunta se carga según un número random y que no este respondida
@@ -271,9 +270,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         SharedPreferences preferenciasParticipante=getSharedPreferences("InfoParticipante", Context.MODE_PRIVATE);
-        System.out.println("-----------------***************************////////////////////////Esta entrando en Deshabilitar 2");
-        System.out.println("Desde ACTIVIDAD DEL MAPA  p1: "+preferenciasParticipante.getInt("p1",102)+"  p2: "+preferenciasParticipante.getInt("p2",102)+"  p3: "+preferenciasParticipante.getInt("p3",102)+"  p4: "+preferenciasParticipante.getInt("p4",102)+"  p5: "+preferenciasParticipante.getInt("p5",102)+
-                "  p6: "+preferenciasParticipante.getInt("p6",102)+"  p7: "+preferenciasParticipante.getInt("p7",102)+"  p8: "+preferenciasParticipante.getInt("p8",102)+"  p9: "+preferenciasParticipante.getInt("p9",102)+"  p10: "+preferenciasParticipante.getInt("p10",102));
+        //System.out.println("-----------------***************************////////////////////////Esta entrando en Deshabilitar 2");
+        //System.out.println("Desde ACTIVIDAD DEL MAPA  p1: "+preferenciasParticipante.getInt("p1",102)+"  p2: "+preferenciasParticipante.getInt("p2",102)+"  p3: "+preferenciasParticipante.getInt("p3",102)+"  p4: "+preferenciasParticipante.getInt("p4",102)+"  p5: "+preferenciasParticipante.getInt("p5",102)+
+                //"  p6: "+preferenciasParticipante.getInt("p6",102)+"  p7: "+preferenciasParticipante.getInt("p7",102)+"  p8: "+preferenciasParticipante.getInt("p8",102)+"  p9: "+preferenciasParticipante.getInt("p9",102)+"  p10: "+preferenciasParticipante.getInt("p10",102));
 
 
             if (p1==null){
@@ -389,8 +388,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         //p1Forum=mMap.addMarker(new MarkerOptions().icon(generateBitmapDescriptorFromRes(MapsActivity.this, R.drawable.ic_baseline_location_off_24 )).anchor(0.0f,1.0f).position(upbForum));
-        System.out.println(preguntaCargada+"////////////////////////////////"+puntoActual);
-        System.out.println("PASO POR ACA 777777777777777777777777777777777777-----------------------------Punto actual:"+puntoActual);
+        //System.out.println(preguntaCargada+"////////////////////////////////"+puntoActual);
+        //System.out.println("PASO POR ACA 777777777777777777777777777777777777-----------------------------Punto actual:"+puntoActual);
         if ( puntoActual<13) {
 
             while (preguntaCargada == false) {
@@ -540,7 +539,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 if(!marker.getTitle().equals("x")){
                     //Toast.makeText(MapsActivity.this,"clic en"+marker.getTitle().toString()+ "Id:  "+marker.getId().toString(),Toast.LENGTH_LONG).show();
-                    System.out.println("Marcadores nuevos------------------------------"+marker.getId().toString());
+                    //System.out.println("Marcadores nuevos------------------------------"+marker.getId().toString());
                     //p1Forum.setTitle("");
 
                 cargarIdpreguntaPrueba(marker.getId().toString());//para simular paso de numero pregunta
@@ -699,7 +698,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onResume() {
         super.onResume();
         cargarPreferenciasParticipante();
-        System.out.println("************************************************----------------------------------------------------/////////////////////////////////////Entro en Onresume"+"  "+preferenciasParticipante.getInt("p2",0));
+        //System.out.println("************************************************----------------------------------------------------/////////////////////////////////////Entro en Onresume"+"  "+preferenciasParticipante.getInt("p2",0));
         mapFragment.getMapAsync(this);
         banderaInicio=2;
 

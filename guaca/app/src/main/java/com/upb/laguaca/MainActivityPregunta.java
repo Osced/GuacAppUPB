@@ -231,7 +231,7 @@ public class MainActivityPregunta extends AppCompatActivity {
             temporizador.setText(h+":"+m+":"+s +"---------"+ha+":"+ma+":"+sa);
 
         milisegundos=(h*3600000)+(m*60000)+(s*1000);
-        System.out.println("Desde antyes77777777777777777777777777777777777777777777   "+milisegundos);
+        //System.out.println("Desde antyes77777777777777777777777777777777777777777777   "+milisegundos);
         Tiempo regresivo= new Tiempo(milisegundos,1000);
         regresivo.start();
     }
@@ -246,7 +246,7 @@ public class MainActivityPregunta extends AppCompatActivity {
         puntaje=preferenciasParticipante.getInt("puntaje",0);
         idPregunta=preferenciasParticipante.getInt("numeroPregunta",0);
         periodoInicio= preferenciasParticipante.getInt("periodoInicio",0);
-        Toast.makeText(MainActivityPregunta.this, " Número Pregunta: "+idPregunta, Toast.LENGTH_LONG).show();
+        //Toast.makeText(MainActivityPregunta.this, " Número Pregunta: "+idPregunta, Toast.LENGTH_LONG).show();
 
 
     }
@@ -517,10 +517,10 @@ public class MainActivityPregunta extends AppCompatActivity {
                     editor.putInt(cargarPreguntaRespondidaPreferecias(),idPregunta);
                     editor.putInt("puntaje",puntaje+puntos);
 
-                    System.out.println("Devolvió como pregunta Shared preferences lo siguinte: ------"+cargarPreguntaRespondidaPreferecias()+"***********************************-----------------------------");
+                    //System.out.println("Devolvió como pregunta Shared preferences lo siguinte: ------"+cargarPreguntaRespondidaPreferecias()+"***********************************-----------------------------");
                     editor.apply();
 
-                    System.out.println("NUMERO DE PREGUNTA--------------------------------------------------------:"+numeroPreguntasrespondidas);
+                    //System.out.println("NUMERO DE PREGUNTA--------------------------------------------------------:"+numeroPreguntasrespondidas);
                     //sI EL PARTICIPANTE YA RESPONDIO LAS 14 PREGUNTAS EL SISTEMA MUESTRA LA PANTALLA DE FINALIZACIÓN Y LO ENVÍA AL MENÚ
                     if(numeroPreguntasrespondidas==13){
                         Intent irPantalla=new Intent(MainActivityPregunta.this,MainActivityFinal.class);
@@ -670,7 +670,7 @@ public class MainActivityPregunta extends AppCompatActivity {
             if(result.getContents()!=null) {
                 puntos = Integer.parseInt(result.getContents());
                 respuestaSeleccionada="----------";
-                System.out.println("SIIIIIIIIIIIIIIIIIIIIIII lo esta leyendo" + puntos);
+                //System.out.println("SIIIIIIIIIIIIIIIIIIIIIII lo esta leyendo" + puntos);
                 //botonEnviarRespuesta.setVisibility(View.VISIBLE);
                 botonLeerQr.setVisibility(View.GONE);
                 registrarRespuesta();
@@ -693,7 +693,7 @@ public class MainActivityPregunta extends AppCompatActivity {
     private View.OnClickListener clicRb1= new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(MainActivityPregunta.this, "Selecciono RB1: "+rb1.getText().toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(MainActivityPregunta.this, "Selecciono RB1: "+rb1.getText().toString(), Toast.LENGTH_LONG).show();
             respuestaSeleccionada=rb1.getText().toString();
             calificarRespuesta(1,idPregunta);
         }
@@ -704,7 +704,7 @@ public class MainActivityPregunta extends AppCompatActivity {
     private View.OnClickListener clicRb2= new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(MainActivityPregunta.this, "Selecciono RB2: "+rb2.getText().toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(MainActivityPregunta.this, "Selecciono RB2: "+rb2.getText().toString(), Toast.LENGTH_LONG).show();
             respuestaSeleccionada=rb2.getText().toString();
             calificarRespuesta(2,idPregunta);
         }
@@ -713,7 +713,7 @@ public class MainActivityPregunta extends AppCompatActivity {
     private View.OnClickListener clicRb3= new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(MainActivityPregunta.this, "Selecciono RB3: "+rb3.getText().toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(MainActivityPregunta.this, "Selecciono RB3: "+rb3.getText().toString(), Toast.LENGTH_LONG).show();
             respuestaSeleccionada=rb3.getText().toString();
             calificarRespuesta(3,idPregunta);
         }
@@ -722,10 +722,9 @@ public class MainActivityPregunta extends AppCompatActivity {
     private View.OnClickListener clicRb4= new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Toast.makeText(MainActivityPregunta.this, "Selecciono RB4: "+rb4.getText().toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(MainActivityPregunta.this, "Selecciono RB4: "+rb4.getText().toString(), Toast.LENGTH_LONG).show();
             respuestaSeleccionada=rb4.getText().toString();
             calificarRespuesta(4,idPregunta);
-            respuestaSeleccionada="----------";
         }
     };
 

@@ -103,10 +103,10 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
         fechaActual=f.get(Calendar.DAY_OF_MONTH);
 
 
-        System.out.println("El dia del mes es:-----------------------------------------------------------888888888888888"+ fechaActual+" ------ ");
+        //System.out.println("El dia del mes es:-----------------------------------------------------------888888888888888"+ fechaActual+" ------ ");
         horaActual=f.get(Calendar.HOUR_OF_DAY);
         minActual=f.get(Calendar.MINUTE);
-        System.out.println("La hora del dia es:-----------------------------------------------------------"+ horaActual);
+        //System.out.println("La hora del dia es:-----------------------------------------------------------"+ horaActual);
 
         //Método que verifica que la fecha actual coincida con la fecha de inicio del juego
         iniciarJuegoSegunFechaInicio();
@@ -240,7 +240,7 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
             System.out.println("actual: "+nowTime+"  inicio: "+startTime+"  final: "+endTime);
             if(esPeriodoEfectivo(nowTime, startTime, endTime)){
 
-                Toast.makeText(MainActivity.this, "Bienvenido a la Guaca 2020: " + jsonObject.optString("nombres") + " - " + jsonObject.optString("id_UPB"), Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Bienvenido a la Guaca 2021: " + jsonObject.optString("nombres") + " - " + jsonObject.optString("id_UPB"), Toast.LENGTH_LONG).show();
                 Intent irPantalla = new Intent(MainActivity.this, MapsActivity.class);
                 //Bundle participanteGuaga=new Bundle();
                 //participanteGuaga.putString("nombreParticipante",jsonObject.optString("nombres") );
@@ -352,6 +352,11 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
             case 8:
                 horaInicio=8;
                 horaFin=10;
+                break;
+
+            case 9:
+                horaInicio=9;
+                horaFin=12;
                 break;
 
             case 12:
